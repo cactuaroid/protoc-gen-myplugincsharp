@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "protoc-gen-myplugincsharp", "protoc-gen-myplugincsharp\protoc-gen-myplugincsharp.csproj", "{CEAE7E46-0FF3-4FDC-91AA-96ABE2B81FBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEAE7E46-0FF3-4FDC-91AA-96ABE2B81FBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEAE7E46-0FF3-4FDC-91AA-96ABE2B81FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEAE7E46-0FF3-4FDC-91AA-96ABE2B81FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEAE7E46-0FF3-4FDC-91AA-96ABE2B81FBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87E51AB7-30EE-46CA-82C1-000E4C30B5B8}
+	EndGlobalSection
+EndGlobal
