@@ -50,7 +50,7 @@ namespace protoc_gen_myplugincsharp
                 response.File.Add(
                     new CodeGeneratorResponse.Types.File()
                     {
-                        Name = "chat.proto" + ".txt",
+                        Name = file + ".txt",
                         Content = output.ToString(),
                     }
                 );
