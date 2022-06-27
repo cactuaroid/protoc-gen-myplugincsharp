@@ -11,6 +11,9 @@ namespace protoc_gen_myplugincsharp
     {
         static void Main(string[] args)
         {
+            // you can attach debugger
+            // System.Diagnostics.Debugger.Launch();
+
             // get request from standard input
             CodeGeneratorRequest request;
             using (var stdin = Console.OpenStandardInput())
