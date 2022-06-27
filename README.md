@@ -1,6 +1,8 @@
 protoc (Protocol Buffers Compiler) plugin sample in C#.
 protoc gives parsed input .proto to the plugin as `CodeGeneratorRequest` object via standard input. The plugin shall put `CodeGeneratorResponse` object to standard output to generate text file.
 
+You cannot execute the plugin itself but you can attach debugger by calling `System.Diagnostics.Debugger.Launch()`.
+
 ##### Input chat.proto[^1]
 [^1]: https://github.com/cactuaroid/GrpcWpfSample/blob/master/grpc-dotnet/GrpcChatSample2.Common/chat.proto
 
@@ -34,7 +36,7 @@ protoc.exe --plugin=protoc-gen-myplugincsharp.exe --myplugincsharp_out=./ --prot
 
 ##### Output chat.proto.txt
 ```
-service Chat
+service Cha
    .google.protobuf.Empty Write(.GrpcChatSample.Common.ChatLog)
    .GrpcChatSample.Common.ChatLog Subscribe(.google.protobuf.Empty)
 message Timestamp
