@@ -3,6 +3,8 @@ protoc gives parsed input .proto to the plugin as `CodeGeneratorRequest` object 
 
 You cannot execute the plugin itself but you can attach debugger by calling `System.Diagnostics.Debugger.Launch()`.
 
+See https://github.com/cactuaroid/protoc-gen-opcua for further example.
+
 ##### Input chat.proto[^1]
 [^1]: https://github.com/cactuaroid/GrpcWpfSample/blob/master/grpc-dotnet/GrpcChatSample2.Common/chat.proto
 
